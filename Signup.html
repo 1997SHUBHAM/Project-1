@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SignUp form</title>
+  <style>
+
+
+.ALL{
+
+width:350px;
+text-align: center;
+position:absolute;
+padding-bottom: 10px;
+background-color:;
+float:right;
+padding-left:400px;
+cursor:pointer;
+}
+h1{
+  color:white;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+#input{
+
+  padding:10px;
+  border:2px solid;
+  border-radius: 6px;
+  width:300px;
+}
+#button{
+  width:;
+  background-color:#3D33FF;
+  padding:10px;
+  border:2px solid;
+  border-radius: 6px;
+  font-size: 20px;
+  color:white;
+
+}
+#button:hover{
+  background-color: green;
+  font-weight: bold;
+  courser:pointer;
+}
+#input:hover{
+  background-color: #FF338F;
+  transform: scale(1.2);
+}
+#background{
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  margin-top:20px;
+}
+  </style>
+</head>
+<body background='89.jpg'id="background">
+<form action="/action_page.php" method="post">
+  <div class="ALL">
+<h1>Sign Up</h1>
+  <input type="text" name="Username" placeholder="Username" required id="input">
+  <br>
+  <br>
+  <input type="password" name="Password" placeholder="Password" required id="input">
+  <br>
+  <br>
+  <input type="email" name="Email" placeholder="Email" required id="input">
+  <br>
+  <br>
+  <input type="text" name="Contact" placeholder="Contact" id="input">
+  <br>
+  <br>
+  <input type="City" name="City" placeholder="City" required id="input">
+  <br>
+  <br>
+  <input type="Address" name="Address" placeholder="Address" id="input">
+  <br>
+  <br>
+   <input type="button" value="SignUp" id="button">
+  <input type="button" value="Cancle" id="button">
+</div>
+</form>
+</body>
+</html>
